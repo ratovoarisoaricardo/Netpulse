@@ -54,7 +54,7 @@ export default function IncidentSimulator({ nodes, onInjectIncident, onClose }) 
           onClick={() => onInjectIncident('node-2', 'high_latency')}
         >
           <AlertTriangle size={16} />
-          Spike Latence sur REST API (>200ms)
+          Spike Latence sur REST API (&gt;200ms)
         </button>
 
         <button
